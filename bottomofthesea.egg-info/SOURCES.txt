@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+bottomofthesea.egg-info/PKG-INFO
+bottomofthesea.egg-info/SOURCES.txt
+bottomofthesea.egg-info/dependency_links.txt
+bottomofthesea.egg-info/entry_points.txt
+bottomofthesea.egg-info/requires.txt
+bottomofthesea.egg-info/top_level.txt
+bottomofthesea.egg-info/zip-safe

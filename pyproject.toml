@@ -1,0 +1,35 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bottomofthesea"
+version = "0.1.1"
+description = "Decode hidden files in the video from the Land At The Bottom Of The Sea project"
+readme = "README.md"
+authors = [{ name = "doublescoop", email = "backslash.share@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["decode", "decoding", "steganography", "steg", "thelandatthebottomofthesea"]
+dependencies = [
+    'opencv_python==4.6.0.66',
+    'Pillow==9.3.0',
+    'numpy==1.22.2',
+    'pip==22.3.1'
+]
+requires-python = ">=3.6"
+
+[project.optional-dependencies]
+dev = ["os"]
+
+[project.urls]
+Homepage = "https://thelandatthebottomofthesea.com/"
+
+[project.scripts]
+bottomofthesea = "bottomofthesea:main"
