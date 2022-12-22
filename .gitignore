@@ -1,7 +1,6 @@
 test_img/
 build/
 dist/
-*.md
 .DS_Store
 
 #template
